@@ -1,5 +1,3 @@
-# README
-
 # Planning our application
   1. Answer Questions
     - What are we building?
