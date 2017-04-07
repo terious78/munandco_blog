@@ -11,7 +11,7 @@
 
   <body>
     <header id="main_navigation" class="clearfix">
-      <a href="#" class="name">mun and Co.</a>
+      <%= link_to "mun and Co.", root_path, class: "name" %>
       <nav>
         <a href="#">HOME</a>
         <%= link_to "POSTS", posts_path %>
@@ -21,5 +21,14 @@
     </header>
 
     <%= yield %>
+
+    <footer id="main_footer">
+      <p class="copyright">&copy;2017 mun and Co.</p>
+      <nav>
+        <a href="http://facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="http://github.com/" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+        <a href="http://linkedin.com" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      </nav>
+    </footer>
   </body>
 </html>
