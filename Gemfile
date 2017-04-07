@@ -49,5 +49,11 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+# GEM for highlighting and markdown contents
+
+gem 'pygments.rb', '~> 1.1.2'
+
+gem 'redcarpet', '~> 3.4.0'
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
